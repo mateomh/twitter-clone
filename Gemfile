@@ -28,11 +28,21 @@ gem 'jbuilder', '~> 2.7'
 # Reduces boot times through caching; required in config/boot.rb
 gem 'bootsnap', '>= 1.4.2', require: false
 
+
+# Dependencies added by me
 # A modern CSS framework based on Flexbox
 gem 'bulma-rails', '~> 0.9.0'
 
 # Forms made easy!
 gem 'simple_form', '~> 5.0', '>= 5.0.2'
+
+# A configurable and documented Rails view helper for adding gravatars into your Rails application.
+gem 'gravatar_image_tag', '~> 1.2'
+
+# Flexible authentication solution for Rails with Warden
+gem 'devise', '~> 4.7', '>= 4.7.2'
+
+
 
 group :development, :test do
   # Call 'byebug' anywhere in the code to stop execution and get a debugger console
