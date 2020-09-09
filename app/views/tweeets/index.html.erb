@@ -15,7 +15,6 @@
     <% @tweeets.each do |tweeet| %>
       <tr>
         <td><%= tweeet.tweeet %></td>
-        <td><%= tweeet.text %></td>
         <td><%= link_to 'Show', tweeet %></td>
         <td><%= link_to 'Edit', edit_tweeet_path(tweeet) %></td>
         <td><%= link_to 'Destroy', tweeet, method: :delete, data: { confirm: 'Are you sure?' } %></td>
