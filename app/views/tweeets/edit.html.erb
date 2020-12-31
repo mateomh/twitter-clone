@@ -1,6 +1,11 @@
-<h1>Editing Tweeet</h1>
-
-<%= render 'form', tweeet: @tweeet %>
-
-<%= link_to 'Show', @tweeet %> |
-<%= link_to 'Back', tweeets_path %>
+<div classs="section">
+  <div class="container">
+    <div class="columns is-centered">
+      <div class="column is-8">
+        <h1 class="title is-2">Editing a Tweeet</h1>
+        <%= render 'form', tweeet: @tweeet %>
+        <%= link_to 'Back', tweeets_path %>
+      </div>
+    </div>
+  </div>
+</div>
